@@ -27,7 +27,7 @@ jobs:
         git config --global user.email "KFER.Mercer@gmail.com"
         git config --global user.name "KFERMercer"
     - name: Load upstream commits
-      run: git pull https://github.com/DoctorD1501/JAVMovieScrape.git --no-edit --strategy-option ours --allow-unrelated-histories
+      run: git pull https://github.com/DoctorD1501/JAVMovieScraper.git --no-edit --strategy-option ours --allow-unrelated-histories
 
     - name: Push Commits
       env:
